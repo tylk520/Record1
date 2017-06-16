@@ -375,6 +375,7 @@ BOOL CALLBACK DlgProc (HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
           if (bTerminating)
                SendMessage (hwnd, WM_SYSCOMMAND, SC_CLOSE, 0L) ;
           
+
           return TRUE ;
           
      case WM_SYSCOMMAND:
